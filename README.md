@@ -2,11 +2,9 @@
 
 Bước 1: Tải và cài đặt Microsoft Visual C++ Redistributable tại link [Microsoft Visual C++ Redistributable](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-Bước 2: Restart máy
+Bước 2: Tải file zip Game và giải nén
 
-Bước 3: Tải file zip Game và giải nén
-
-Bước 4: Chạy file run.exe trong thư mục 64/Debug
+Bước 3: Chạy file run.exe trong thư mục 64/Debug
 
 # 2. Game 15 Puzzle
 
