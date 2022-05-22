@@ -1,34 +1,64 @@
-# 15_Puzzle
+# 1. Hướng dẫn cài đặt
 
-1. Hướng dẫn cài đặt
+Bước 1: Tải và cài đặt Microsoft Visual C++ Redistributable tại link [Microsoft Visual C++ Redistributable](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-2. Giới thiệu Game
+Bước 2: Restart máy
 
-Cách chơi: Di chuyển các ô vuông số để sắp xếp theo đúng thứ tự
+Bước 3: Tải file zip Game và giải nén
 
-Hướng dẫn: Bấm chuột vào các ô cần di chuyển. Game kết thúc khi các ô số được sắp xếp theo thứ tự từ bé đến lớn, trái qua phải, trên xuống dưới.
+Bước 4: Chạy file run.exe trong thư mục 64/Debug
 
-Ý tưởng: 
+# 2. Game 15 Puzzle
 
--Game gồm 3 mức độ: Dễ (3x3), Trung bình (4x4), Khó (5x5)
+## Mô tả
 
--Mỗi mức độ có 1 map khác nhau
+15 Puzzle là một tựa game xếp hình đơn giản với các ô vuông chứa những con số và 1 ô trống.
 
-3. Chức năng
+Nhiệm vụ của người chơi là di chuyển các ô vuông để xếp chúng theo thứ tự từ bé đến lớn về đúng vị trí trái qua phải, trên xuống dưới.
 
--Màn hình Menu gồm 3 lựa chọn mức độ. Sau khi chọn 1 mức độ sẽ chuyển đến màn hình Game.
+## Hướng dẫn
 
--Màn hình Game: 3 phần
+Chọn mức độ ở màn hình Menu
 
-+Trên cùng là đồng hồ bấm giờ, bắt đầu tính thời gian từ lúc vào màn hình Game, kết thúc khi Game hoàn thành
+Sử dụng chuột để di chuyển các ô vuông số
 
-+Ở giữa là ô vuông 3x3, 4x4 hoặc 5x5 tùy theo mức độ người chơi chọn.
+Thoát game: Bấm dấu X ở góc phải màn hình
 
-+Dưới cùng là nút Menu để trở về màn hình Menu
+# 3. Chức năng
 
--Exit: Bấm dấu X ở góc phải màn hình
+Game gồm 3 mức độ: Dễ (3x3), Trung bình (4x4), Khó (5x5)
 
-Link minh họa chi tiết: 
+Có đồng hồ bấm giờ tính thời gian từ lúc bắt đầu vào Game đến khi hoàn thành Game
 
-4. Các kỹ thuật lập trình sử dụng trong Game: vector, con trỏ và các tham trị, tham chiếu, lớp và cấu trúc, đồ họa với 3 thư viện SDL2, SDL2_mixer, SDL2_ttf
+## Link minh họa chi tiết: 
+[15 Puzzle](https://youtube.com/shorts/LQQUPCHAFVw?feature=share)
+
+# 4. Kỹ thuật lập trình
+- vector
+- con trỏ và các tham trị, tham chiếu
+- lớp và cấu trúc
+- đồ họa với 3 thư viện SDL2, SDL2_mixer, SDL2_ttf
+
+# 5. Kết luận
+
+Game vẫn còn có thể phát triển thêm 
+
+## Bài học
+
+Cấu trúc một chương trình
+
+Sử dụng class
+
+Lưu trữ src code trên Github
+
+## Hướng phát triển
+
+Thêm chế độ chơi giới hạn thời gian bằng cách sử dụng đồng hồ đếm ngược
+
+Thêm chế độ hai người chơi (1 người sử dụng bàn phím, 1 người sử dụng chuột/touch pad), so sánh thời gian chơi giữa hai người
+
+
+
+
+
 
