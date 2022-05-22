@@ -49,6 +49,8 @@ Cấu trúc một chương trình
 
 Sử dụng class
 
+Giải phóng bộ nhớ sau khi sử dụng
+
 Lưu trữ src code trên Github
 
 ## Hướng phát triển
