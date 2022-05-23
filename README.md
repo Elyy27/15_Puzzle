@@ -6,6 +6,8 @@ Bước 2: Tải file zip Game và giải nén
 
 Bước 3: Chạy file run.exe trong thư mục 64/Debug
 
+** Nếu máy tính có sẵn IDE Visual Studio thì chỉ cần tải file zip và giải nén rồi chạy file run.exe là chơi được Game.
+
 # 2. Game 15 Puzzle
 
 ## Mô tả
